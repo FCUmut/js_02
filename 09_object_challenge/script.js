@@ -18,21 +18,23 @@ const library = [
 ];
 
 // Step 2
-// My solution
+// Solution - 1
 // const [first, second, third] = library;
 // first.status.read = true;
 // second.status.read = true;
 // third.status.read = true;
 
+// Solution - 2
 library[0].status.read = true;
 library[1].status.read = true;
 library[2].status.read = true;
 
 // Step 3
-// My solution
+// Solution - 1
 // const [first] = library;
 // first.title = "Angels & Demons II";
 
+// Solution - 2
 const { title: firstBook } = library[0];
 console.log(firstBook);
 
